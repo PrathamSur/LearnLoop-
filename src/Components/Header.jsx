@@ -1,21 +1,35 @@
-import React from 'react'
+import React from "react";
+import LDropdown from "./LDropdown";
+import Content from "./Content";
+
 
 const Header = () => {
   return (
-    <div className='bg-[#48CAE4] justify-center items-center text-center p-5 rounded-3xl flex flex-col lg:flex-row md:justify-between md:items-center md:p-8 '>
-        <div>
-          <h2 className='justify-center text-xl'>Welcome to</h2>
-          <h1 className='text-6xl font-bold'>LearnLoop</h1>
-          <p className='text-lg'>Your one-stop solution for learning</p>
-        </div>
-        <div>
-          <input type="text" placeholder='Search...' className='mt-4 p-2 rounded-lg w-full md:w-full md:pl-2 border border-[#023047]' />
-          <button className='mt-4 bg-[#fccc42] text-black p-2 m-2 rounded-3xl hover:bg-[#daa32d]'>Search</button>
+    <div className="bg-[#F2F4F5] h-full flex justify-center items-center md:h-[18%] lg:h-[25%] p-4 lg:p-6">
+      <div className="bg-white px-5 py-3 h-full w-[90%] p-2 rounded-full flex  justify-between items-center border border-neutral-300 shadow-sm">
+        <div className="flex items-center h-full w-[40%] md:w-[30%] lg:w-[20%]">
+          <img src="/LL-logo2.png" alt="Logo" className="h-full object-contain rounded-full" />
         </div>
         
-        
-    </div>
-  )
-}
 
-export default Header
+        <div className="hidden lg:flex lg:gap-2 lg:text-lg lg:font-semibold">
+          <a
+            href="/profile"
+            className="text-white bg-black hover:text-black transition duration-300 hover:bg-neutral-50 border border-neutral-900 p-2 rounded-full px-3"
+          >
+            Profile
+          </a>
+          <a
+            href="#"
+            className="text-black hover:text-white transition duration-300 hover:bg-black border border-neutral-900 p-2 rounded-full px-3"
+          >
+            Log out
+          </a>
+        </div>
+       <LDropdown />
+      </div>
+    </div>
+  );
+};
+
+export default Header;

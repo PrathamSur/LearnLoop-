@@ -1,14 +1,13 @@
-import React from 'react'
-import Header from './Header'
-import Classrooms from './Classrooms'
+import Class from "./Class";
+import Sidebar from "./Sidebar";
 
-const Content = () => {
+ const Content = () => {
   return (
-    <div className="flex-1 bg-white rounded-t-3xl p-4 md:p-10">
-        <Header />
-        <Classrooms/>
+    <div className="flex h-screen bg-[#F8FAFC]">
+      <Sidebar />
+      <Class />
     </div>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;
