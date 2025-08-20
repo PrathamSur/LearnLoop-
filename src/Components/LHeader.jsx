@@ -9,6 +9,7 @@ const LHeader = () => {
         <div className="flex items-center h-full w-[40%] md:w-[30%] lg:w-[20%]">
           <img src="/LL-logo2.png" alt="Logo" className="h-full object-contain rounded-full" />
         </div>
+        
 
         <div className="hidden lg:flex lg:gap-2 lg:text-lg lg:font-semibold">
           <a

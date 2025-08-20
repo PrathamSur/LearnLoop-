@@ -7,7 +7,7 @@ const LContent = () => {
   const navigate = useNavigate();
 
   const handleNavigation = () => {
-    navigate("/Login"); // Navigate to the Class page
+    navigate("/classrooms"); // Navigate to the Class page
   };
 
   return (
