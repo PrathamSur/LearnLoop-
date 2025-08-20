@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar";
 import Content from "./Components/Content";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing";
-import Class from "./pages/Class";
+import Classrooms from "./pages/Classrooms";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
@@ -18,7 +18,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="/classes" element={<Class />} />
+      <Route path="/classrooms" element={<Classrooms />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/profile" element={<Profile />} />
