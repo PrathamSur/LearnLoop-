@@ -1,15 +1,24 @@
 import React from "react";
 import LDropdown from "./LDropdown";
-
+import logo from "../images/LL-logo.png";
+import logov2 from "../images/LearnLoop-Infinity-V1.png";
 
 const LHeader = () => {
   return (
     <div className="bg-[#F2F4F5] h-full flex justify-center items-center md:h-[18%] lg:h-[25%] p-4 lg:p-6">
       <div className="bg-white px-5 py-3 h-full w-[90%] p-2 rounded-full flex  justify-between items-center border border-neutral-300 shadow-sm">
         <div className="flex items-center h-full w-[40%] md:w-[30%] lg:w-[20%]">
-          <img src="/LL-logo2.png" alt="Logo" className="h-full object-contain rounded-full" />
+          <img
+            src={logo}
+            alt="Logo"
+            className="object-contain w-[7rem] hidden lg:block"
+          />
+          <img
+            src={logov2}
+            alt="Logo"
+            className="object-contain w-[3rem] lg:hidden"
+          />
         </div>
-        
 
         <div className="hidden lg:flex lg:gap-2 lg:text-lg lg:font-semibold">
           <a
