@@ -1,8 +1,8 @@
 import React from 'react'
 import LHeader from '../Components/LHeader'
 import { useNavigate } from "react-router-dom";
-import image1 from "../images/classpic.svg";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import animationData from "../images/OnlineTeaching.json";
+import Lottie from "lottie-react";
 
 
 const Landing = () => {
@@ -30,13 +30,14 @@ const Landing = () => {
               >
                 Get Started
               </button>
-              <div>
-                <DotLottieReact
-                  src="/animation1.lottie"
-                  autoplay
-                  loop
-                  className="lg:min-w-[1000px]"
-                />
+              <div className='p-5 w-full lg:w-3/4 '>
+                <Lottie animationData={animationData} loop={true} />
+              </div>
+              <div className='flex flex-col gap-2 justify-center lg:flex-row lg:flex-wrap lg:gap-5 items-center mt-10 mb-10'>
+                <div className='border border-gray p-10 rounded-3xl w-fit bg-gradient-to-br from-white to-[#e7f3f8] shadow-lg lg:w-1/3'><h1 className='font-bold text-2xl mb-2'>Hello</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore vero voluptates iste eaque velit soluta blanditiis quia </div>
+                <div className='border border-gray p-10 rounded-3xl w-fit bg-gradient-to-br from-white to-[#e7f3f8] shadow-lg lg:w-1/3'><h1 className='font-bold text-2xl mb-2'>Hello</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore vero voluptates iste eaque velit soluta blanditiis quia </div>
+                <div className='border border-gray p-10 rounded-3xl w-fit bg-gradient-to-br from-white to-[#e7f3f8] shadow-lg lg:w-1/3'><h1 className='font-bold text-2xl mb-2'>Hello</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore vero voluptates iste eaque velit soluta blanditiis quia </div>
+                <div className='border border-gray p-10 rounded-3xl w-fit bg-gradient-to-br from-white to-[#e7f3f8] shadow-lg lg:w-1/3'><h1 className='font-bold text-2xl mb-2'>Hello</h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempore vero voluptates iste eaque velit soluta blanditiis quia </div>
               </div>
       
               <div className="flex flex-col items-center justify-start h-screen  w-full">
