@@ -3,6 +3,8 @@ import LDropdown from "./LDropdown";
 import logo from "../images/LL-logo.png";
 import logov2 from "../images/LearnLoop-Infinity-V1.png";
 
+
+
 const LHeader = () => {
   return (
     <div className="bg-[#F2F4F5] h-full flex justify-center items-center md:h-[18%] lg:h-[25%] p-4 lg:p-6">
@@ -18,6 +20,7 @@ const LHeader = () => {
             alt="Logo"
             className="object-contain w-[3rem] lg:hidden"
           />
+         
         </div>
 
         <div className="hidden lg:flex lg:gap-2 lg:text-lg lg:font-semibold">
