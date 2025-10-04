@@ -1,4 +1,6 @@
 import React from 'react';
+import Register from './Register';
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -37,7 +39,6 @@ const Login = () => {
           <input
             id="password"
             type="password"
-            placeholder="••••••••"
             className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none 
                        focus:ring-2 focus:ring-blue-500 transition-all"
           />
@@ -55,12 +56,12 @@ const Login = () => {
         
         <p className="text-gray-600 mt-6 text-sm">
           Don’t have an account?{" "}
-          <a
-            href="/register"
+          <Link 
+          to="/Register"
             className="text-blue-600 hover:underline font-medium"
           >
             Sign Up
-          </a>
+          </Link>
         </p>
       </form>
     </div>

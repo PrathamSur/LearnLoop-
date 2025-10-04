@@ -2,6 +2,8 @@ import React from "react";
 import LDropdown from "./LDropdown";
 import logo from "../images/LL-logo.png";
 import logov2 from "../images/LearnLoop-Infinity-V1.png";
+import Login from "../pages/Login";
+import { Link } from "react-router-dom";
 
 
 
@@ -24,12 +26,12 @@ const LHeader = () => {
         </div>
 
         <div className="hidden lg:flex lg:gap-2 lg:text-lg lg:font-semibold">
-          <a
-            href="/login"
+         <Link
+            to="/Login"
             className="text-white bg-black hover:text-black transition duration-300 hover:bg-neutral-50 border border-neutral-900 p-2 rounded-full px-3"
           >
             Login
-          </a>
+          </Link>
           <a
             href="/register"
             className="text-black hover:text-white transition duration-300 hover:bg-black border border-neutral-900 p-2 rounded-full px-3"

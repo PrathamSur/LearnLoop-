@@ -37,7 +37,7 @@ const Class = () => {
 
       {/* Add Classroom Button */}
       <div className="flex justify-center mt-8">
-        <button className=" bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-md">
+        <button className=" bg-black hover:bg-black-700 text-white px-6 py-3 rounded-full shadow-md">
           + Add new classroom
         </button>
       </div>
