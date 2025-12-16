@@ -8,3 +8,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+.custom-excalidraw-styles .excalidraw {
+ 
+  --ui-font: 14px; 
+}
+
+
+.custom-excalidraw-styles .App-toolbar {
+  
+  transform-origin: center bottom;
+}
+
+.custom-excalidraw-styles .layer-ui__wrapper {
+  
+  padding: 10px; 
+}
