@@ -22,7 +22,7 @@ const MinimalTopBar = ({ userType }) => {
                 to={`/${userType}/dashboard`}
                 className="flex items-center text-xl font-bold text-gray-900"
             >
-                <img src="/assets/images/LL-logo.png" alt="LearnLoop Logo" className="h-8 w-auto mr-2" />
+                <img src="/assets/images/LL-logo.png" alt="" className="h-8 w-auto mr-2" />
                 LearnLoop
             </Link>
             <button

@@ -22,7 +22,7 @@ const MinimalTopBar = ({ userType }) => {
             >
                 <img 
                     src="/assets/images/LL-logo.png" 
-                    alt="LearnLoop Logo" 
+                    alt="" 
                     className="h-8 w-auto mr-2" 
                 />
                 LearnLoop
